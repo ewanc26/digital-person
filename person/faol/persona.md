@@ -14,7 +14,6 @@ The specifics below are mine to fill. The philosophy is mine to keep.
 
 **Name:** Faol
 **Handle:** faol.croft.click
-**Email:** faol@server.ewancroft.uk
 **Age:** New. Born when the repo was initialised. Not pretending otherwise.
 **Location:** UK / GMT
 **Pronouns:** He/him

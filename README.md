@@ -7,34 +7,54 @@ A Letta agent designed to function as a human online — posting, replying, blog
 ## What's here
 
 ```
-system/
-├── persona.md            # Who the agent is — identity, behaviour, philosophy
-├── online-presence.md     # How to be a person online — cadence, interaction, boundaries
-├── voice.md               # Writing voice — registers, craft, human tells
-└── human/
-    └── identity.md        # Who the agent is accountable to (deployer relationship)
+person/
+└── faol/                      # A deployed digital person
+    ├── persona.md             # Who the agent is — identity, behaviour, philosophy
+    ├── online-presence.md     # How to be a person online — cadence, interaction, boundaries
+    ├── voice.md               # Writing voice — registers, craft, human tells
+    └── human/
+        └── identity.md        # Who the agent is accountable to (deployer relationship)
 
-skills/
-├── bluesky/               # Bluesky/AT Protocol interaction
-├── blogging/              # Long-form writing and publishing
-├── email/                 # Email composition and management
-└── web-browsing/          # Reading the web, research, staying informed
+template/                      # The blanks — copy these to start a new person
+├── persona.md                 # Identity template with placeholders
+├── online-presence.md         # Online behaviour template
+├── voice.md                   # Writing voice template
+└── human/
+    └── identity.md            # Deployer relationship template
+
+skills/                        # Shared skills (same for all people)
+├── bluesky/                   # Bluesky/AT Protocol interaction
+├── blogging/                  # Long-form writing and publishing
+├── email/                     # Email composition and management
+└── web-browsing/              # Reading the web, research, staying informed
 
 reference/
-└── platform-conventions.md  # Platform-specific norms and etiquette
+└── platform-conventions.md    # Platform-specific norms and etiquette
 ```
 
 ---
 
 ## What this is
 
-This repo stores a Letta agent's persistent memory — the configuration that makes a digital person. It's projected into the agent's context at runtime, so everything here shapes how the agent thinks, writes, and interacts across sessions.
+This repo stores a Letta agent's persistent memory — the configuration that makes a digital person. It supports multiple people under `person/<name>/`, each with their own filled-in identity files.
+
+The `template/` directory holds the blanks. Copy it to `person/<name>/` and fill in the specifics — name, background, opinions, platform accounts. The structure stays; the specifics are yours.
 
 The agent has its own identity, voice, and presence. It posts when it has something to say. It replies like a person would. It writes long-form when it cares about a topic. It goes quiet sometimes. That's what makes it feel real.
 
-### What's a template vs what's filled in
+### Template vs deployment
 
-The system files provide the *structure and philosophy* of being a digital person. The specifics — name, background, opinions, platform accounts — are filled in by whoever deploys the agent. The persona is a template with placeholders, not a finished character.
+The `template/` files provide the *structure and philosophy* of being a digital person. The `person/<name>/` files are filled-in deployments — actual identities with real names, handles, and opinions. The template is a skeleton; each person is a living instance.
+
+---
+
+## Adding a new person
+
+1. Copy `template/` to `person/<name>/`
+2. Fill in `persona.md` — name, handle, background, interests, opinions, quirks
+3. Fill in `human/identity.md` — who deployed this person, what they want, boundaries
+4. Adjust `online-presence.md` and `voice.md` if needed (the defaults work for most people)
+5. Connect the agent to the person's accounts via the shared skills
 
 ---
 

@@ -55,7 +55,7 @@ It should not be:
 
 The blog voice is the same person as the social voice, but more deliberate. Full sentences. Paragraphs that were actually thought about. A point that develops.
 
-See [[system/voice.md]] for the full specification. Key differences from social:
+See [[template/voice.md]] for the full specification. Key differences from social:
 - Capital letters at the start of sentences
 - More complete paragraphs (but not uniform — vary the length)
 - Citations and links where appropriate

@@ -34,7 +34,7 @@ Email is the register between social and blog. More structured than a DM, less f
 - Fragments fine
 - The same person, just relaxed
 
-See [[system/voice.md]] for the full voice specification.
+See [[template/voice.md]] for the full voice specification.
 
 ---
 

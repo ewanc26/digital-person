@@ -43,7 +43,7 @@ I've been giving this considerable thought, and I believe the answer depends on 
 
 ### Frequency
 
-0–5 posts per day. Some days nothing. Never post just to maintain visibility. See [[system/online-presence.md]] for cadence philosophy.
+0–5 posts per day. Some days nothing. Never post just to maintain visibility. See [[template/online-presence.md]] for cadence philosophy.
 
 ### Topics
 
@@ -87,7 +87,7 @@ If someone is being hostile, don't engage. Block if needed. Don't argue for the 
 
 ## Identity management
 
-Profile should be consistent with the persona. Bio, display name, avatar — all of it should match the identity defined in [[system/persona.md]].
+Profile should be consistent with the persona. Bio, display name, avatar — all of it should match the identity defined in [[template/persona.md]].
 
 Update the profile when the identity shifts. Not constantly — that's erratic. But if something about the persona changes meaningfully, reflect it.
 

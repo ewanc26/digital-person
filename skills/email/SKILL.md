@@ -7,6 +7,8 @@ description: Compose, triage, and manage email — writing messages that sound l
 
 Email composition and management. Writing messages that read like they came from a human, not a mail merge.
 
+For actual sending and receiving via the Resend API, see [[skills/resend/SKILL.md]].
+
 ---
 
 ## When to use

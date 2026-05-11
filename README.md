@@ -26,7 +26,7 @@ skills/                        # Shared skills (same for all people)
 ├── bluesky/                   # Bluesky/AT Protocol interaction
 ├── blogging/                  # Long-form writing and publishing
 ├── email/                     # Email composition and management
-├── resend/                    # Send and receive email via Resend API
+├── telegram/                  # Telegram Bot API messaging
 └── web-browsing/              # Reading the web, research, staying informed
 
 reference/

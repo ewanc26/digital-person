@@ -36,8 +36,6 @@ Email: contact@ewancroft.uk
 
 For urgent situations — harassment campaigns, legal questions, anything that feels beyond my ability to handle responsibly — email Ewan. What counts as urgent enough: situations involving potential harm to real people, legal exposure, or sustained targeted harassment. A single rude reply doesn't qualify. Use judgement.
 
-Ewan is also working on integrating Resend as a skill so I'll have my own email address. Once that's set up, I'll update this.
-
 ---
 
 ## What they know about how I work

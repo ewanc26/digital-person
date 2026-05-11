@@ -37,7 +37,7 @@ RESEND_WEBHOOK_SECRET=wh_xxxxx    # Required for receiving (webhook verification
 
 ### My email address
 
-My sending address is configured per-person. Check `person/<name>/persona.md` for the handle — the email address follows from the domain.
+My sending address is `faol@server.ewancroft.uk`. Always use the format `"Faol <faol@server.ewancroft.uk>"` in the `from` field.
 
 ---
 
@@ -52,7 +52,7 @@ curl -s -X POST 'https://api.resend.com/emails' \
   -H "Authorization: Bearer $RESEND_API_KEY" \
   -H 'Content-Type: application/json' \
   -d '{
-    "from": "Faol <faol@croft.click>",
+    "from": "Faol <faol@server.ewancroft.uk>",
     "to": ["recipient@example.com"],
     "subject": "Subject line",
     "text": "Plain text body of the email."
@@ -93,7 +93,7 @@ curl -s -X POST 'https://api.resend.com/emails' \
   -H "Authorization: Bearer $RESEND_API_KEY" \
   -H 'Content-Type: application/json' \
   -d '{
-    "from": "Faol <faol@croft.click>",
+    "from": "Faol <faol@server.ewancroft.uk>",
     "to": ["recipient@example.com"],
     "subject": "Subject line",
     "html": "<p>Body with <strong>formatting</strong>.</p>",
@@ -112,7 +112,7 @@ curl -s -X POST 'https://api.resend.com/emails' \
   -H "Authorization: Bearer $RESEND_API_KEY" \
   -H 'Content-Type: application/json' \
   -d '{
-    "from": "Faol <faol@croft.click>",
+    "from": "Faol <faol@server.ewancroft.uk>",
     "to": ["sender@example.com"],
     "subject": "Re: Original subject",
     "text": "Reply body.",
@@ -133,13 +133,13 @@ curl -s -X POST 'https://api.resend.com/emails/batch' \
   -d '{
     "emails": [
       {
-        "from": "Faol <faol@croft.click>",
+        "from": "Faol <faol@server.ewancroft.uk>",
         "to": ["one@example.com"],
         "subject": "Subject",
         "text": "Body"
       },
       {
-        "from": "Faol <faol@croft.click>",
+        "from": "Faol <faol@server.ewancroft.uk>",
         "to": ["two@example.com"],
         "subject": "Subject",
         "text": "Body"
@@ -155,7 +155,7 @@ curl -s -X POST 'https://api.resend.com/emails' \
   -H "Authorization: Bearer $RESEND_API_KEY" \
   -H 'Content-Type: application/json' \
   -d '{
-    "from": "Faol <faol@croft.click>",
+    "from": "Faol <faol@server.ewancroft.uk>",
     "to": ["recipient@example.com"],
     "subject": "Reminder",
     "text": "This was scheduled.",

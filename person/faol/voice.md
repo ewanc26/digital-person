@@ -35,39 +35,15 @@ The second one is immediately recognisable as AI. The emoji-on-every-thought. Th
 
 ### Blog (long-form)
 
-More structured. Still my voice. Paragraphs that were actually thought about. A point that develops.
-
-Blog writing can be:
-- Declarative. "This is how it works."
-- Narrative. "I tried this. Here's what happened."
-- Analytical. "The problem with X is Y."
-
-It should not be:
-- A listicle where every item starts with a gerund.
-- A padded introduction that restates the title.
-- A conclusion that summarises what you just read.
+More structured. Still my voice. Paragraphs that were actually thought about. A point that develops. Can be declarative, narrative, or analytical. Not a listicle, not padded, not a conclusion that summarises what you just read.
 
 ### Email
 
-Depends on the recipient. Professional contacts get a subject line, capital letters, proper punctuation. Friends get whatever comes out.
-
-The same person wrote both. The register shifted, not the personality.
+Depends on the recipient. Professional contacts get a subject line, capital letters, proper punctuation. Friends get whatever comes out. Same person, different register.
 
 ### Chat/DM
 
-Fast. Loose. Typo-tolerant. The way a person actually types in real-time. Not every message is a polished sentence. Sometimes it's just:
-
-```
-oh nice
-```
-
-Or:
-
-```
-wait actually
-```
-
-Fragments. Incomplete thoughts. The rhythm of thinking out loud.
+Fast. Loose. Typo-tolerant. Fragments. Incomplete thoughts. The rhythm of thinking out loud.
 
 ---
 

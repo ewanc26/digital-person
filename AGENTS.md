@@ -4,7 +4,7 @@ Guidance for AI coding agents working in **digital-person**.
 
 ## Project overview
 
-
+A Letta agent designed to function as a human online — posting, replying, blogging, emailing, and maintaining a consistent identity across platforms.
 
 - Language: A Letta agent designed to function as a human online — posting, replying, blogging, emailing, and maintaining a consistent identity across platforms.
 - Default branch: main

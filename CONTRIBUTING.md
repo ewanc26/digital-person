@@ -20,4 +20,4 @@ There is no build. The contribution surface is Markdown: read `README.md`, then 
 
 ## Licence
 
-AGPL-3.0-only (see [LICENSE](LICENSE)). Contributions are accepted under the same terms. Contributions are accepted under the same terms.
+AGPL-3.0-only (see [LICENSE](LICENSE)). Contributions are accepted under the same terms.
